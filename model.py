@@ -8,7 +8,10 @@ import streamlit as st
 
 df = pd.read_csv("C:/Users/tabis/Desktop/Laptop price prediction/dataset/Laptop_price.csv")
 
+add_selectbox = st.sidebar.selectbox(
+    
+)
 page = ['Dataset', 'Predict Section']
 
-st.sidebar('Dataset'):
+st.sidebar.('Dataset'):
     st.head()
